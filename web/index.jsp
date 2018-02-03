@@ -5,15 +5,12 @@
   Time: 11:40
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Title :)</title>
   </head>
   <body>
-  <%
-    FirstOne tc = new FirstOne();
-    System.out.print(tc.hw());
-  %>
+  <%= new FirstOne().hw()%>
   </body>
 </html>
