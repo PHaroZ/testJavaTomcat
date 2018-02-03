@@ -13,7 +13,7 @@
   <body>
   <%
     FirstOne tc = new FirstOne();
-    out.print(tc.helloWorld());
+    System.out.print(tc.hw());
   %>
   </body>
 </html>
